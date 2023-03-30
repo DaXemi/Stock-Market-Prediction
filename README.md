@@ -1,3 +1,27 @@
+<br/>
+<p align="center">
+  <a >
+    <img src="https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg" alt="Logo" width="120" height="120">
+  </a>
+
+  <h3 align="center">Stock Market Prediction</h3>
+
+  <p align="center">
+    <a href="https://docs.google.com/document/d/1iE6y-wQAa-Ge-rcBJjlPV8Y4Qro2pF_s/edit"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+  </p>
+</p>
+
+## Table Of Contents
+
+* [Abstract](#abstract)
+* [Introduction](#introduction)
+* [Dataset](#dataset)
+* [Method](#method)
+* [Experiments and Results](#experiments-and-results)
+* [Conclusion and Future Work](#conclusion-and-future-work)
+* [References](#references)
 # Stock-Market-Prediction
 
 ### Abstract
@@ -34,4 +58,30 @@ Random Forest is a machine learning algorithm that can be utilized for Stock Mar
 Linear Regression is a popular statistical method used to analyze the relationship between a dependent variable and one or more independent variables. In the context of stock market prediction, linear regression can be used to establish a linear relationship between the target variable, which is the stock price, and the features that might influence it, such as the volume of trades, market sentiment, or news headlines. However, the stock market is highly dynamic and influenced by many factors, making it challenging to predict using a simple linear model. As a result, the performance of Linear Regression may not be optimal in this context, and more sophisticated models are needed.
 Decision Trees are another popular machine learning method for classification and regression problems. They work by partitioning the data based on a series of rules to create a tree-like structure, with each internal node representing a feature and each leaf node representing a prediction. However, a single decision tree may be too simple to capture the complex relationships between features and the target variable, resulting in underfitting. 
 Random Forest is a powerful ensemble learning method that combines multiple decision trees to overcome the limitations of a single decision tree. It randomly selects subsets of the features and the samples to train multiple decision trees independently. The final prediction is obtained by averaging the predictions of all trees, which reduces the variance and increases the accuracy of the model. This makes Random Forest an excellent choice for Stock Market Prediction, as it can handle non-linear relationships between features and the target variable and is less prone to overfitting than a single decision tree.
+<br><br>
+### Conclusion and Future Work
+In conclusion, Stock Market Prediction is a challenging and complex problem that requires sophisticated machine learning methods to achieve accurate and reliable predictions. Our project focused on using Random Forest as the primary model for predicting the movement of stock prices based on a set of features such as past prices, volume, market sentiment, and news headlines. We started by exploring different models such as Linear Regression and Decision Trees, but we found that Random Forest was the most suitable and appropriate for this task due to its ability to handle non-linear relationships and its superior performance in terms of accuracy and overfitting.To further improve our predictions, we utilized techniques such as hyperparameter tuning through Grid Search CV and feature selection to optimize the performance of our Random Forest model.
+
+For future work, we plan to explore the use of more advanced deep learning models such as Long Short-Term Memory (LSTM) networks to further improve our predictions. LSTM networks are particularly well-suited for time-series data such as stock prices, and have been shown to outperform traditional machine learning models in many applications. In addition, we plan to incorporate fundamental analysis of the stock and real-time news related to the stock into our prediction model. Fundamental analysis involves examining a company's financial and economic data to gain insights into its overall health and prospects, while news analysis involves monitoring news sources for information that could impact a company's stock price. By incorporating these additional sources of information, we aim to develop a more comprehensive and accurate prediction model that can better capture the complex and dynamic nature of the stock market.
+<br><br>
+### References
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
+<br><br>
+https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
+<br><br>
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.htm
+<br><br>
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
+<br><br>
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+<br><br>
+https://www.alphavantage.co/documentation/
+<br><br>
+https://machinelearningmastery.com/
+<br><br>
+https://towardsdatascience.com/machine-learning/home
+<br><br>
+https://www.moneycontrol.com/
+<br><br>
+https://www.tickertape.in/
 <br><br>
