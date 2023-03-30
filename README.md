@@ -73,23 +73,27 @@ In conclusion, Stock Market Prediction is a challenging and complex problem that
 For future work, we plan to explore the use of more advanced deep learning models such as Long Short-Term Memory (LSTM) networks to further improve our predictions. LSTM networks are particularly well-suited for time-series data such as stock prices, and have been shown to outperform traditional machine learning models in many applications. In addition, we plan to incorporate fundamental analysis of the stock and real-time news related to the stock into our prediction model. Fundamental analysis involves examining a company's financial and economic data to gain insights into its overall health and prospects, while news analysis involves monitoring news sources for information that could impact a company's stock price. By incorporating these additional sources of information, we aim to develop a more comprehensive and accurate prediction model that can better capture the complex and dynamic nature of the stock market.
 <br><br>
 ### References
-https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.htm
+* https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.htm
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 <br><br>
-https://www.alphavantage.co/documentation/
+* https://www.alphavantage.co/documentation/
 <br><br>
-https://machinelearningmastery.com/
+* https://machinelearningmastery.com/
 <br><br>
-https://towardsdatascience.com/machine-learning/home
+* https://towardsdatascience.com/machine-learning/home
 <br><br>
-https://www.moneycontrol.com/
+* https://www.moneycontrol.com/
 <br><br>
-https://www.tickertape.in/
+* https://www.tickertape.in/
 <br><br>
+### Contributers
+* **Aryan Karoliwal** - *Comp Science Student* - [Aryan Karoliwal](https://github.com/karoliwal) - *Dataset and model Training*
+* **Atharva Agrwal** - *Comp Science Student* - [Atharva Agrawal](https://github.com/DaXemi) - *Model Prototyping and Documentation*
+* **Ritik Jain** - *Comp Science Student* - [Ritik Jain](https://github.com/rj5983) - *Documentation and Project Dataset Recommendation*
