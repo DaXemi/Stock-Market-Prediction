@@ -23,6 +23,7 @@
 * [Experiments and Results](#experiments-and-results)
 * [Conclusion and Future Work](#conclusion-and-future-work)
 * [References](#references)
+* [Contributors](#contributors)
 # Stock-Market-Prediction
 
 ### Abstract
@@ -93,7 +94,53 @@ For future work, we plan to explore the use of more advanced deep learning model
 <br><br>
 * https://www.tickertape.in/
 <br><br>
-### Contributers
-* **Aryan Karoliwal** - *Comp Science Student* - [Aryan Karoliwal](https://github.com/karoliwal) - *Dataset and model Training*
-* **Atharva Agrwal** - *Comp Science Student* - [Atharva Agrawal](https://github.com/DaXemi) - *Model Prototyping and Documentation*
-* **Ritik Jain** - *Comp Science Student* - [Ritik Jain](https://github.com/rj5983) - *Documentation and Project Dataset Recommendation*
+### Contributors
+
+<table>
+<tr align="center">
+
+
+<td>
+Aryan Karoliwal
+
+<p align="center">
+<a href = "https://github.com/karoliwal"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/aryankaroliwal/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+<p align="center">
+Dataset and Model Training
+</p>
+
+</td>
+
+
+<td>
+Atharva Agrawal
+
+<p align="center">
+<a href = "https://github.com/DaXemi"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/atharva-agrawal-a17906235/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+<p align="center">
+Model Prototyping and Documentation
+</p>
+</td>
+
+
+<td>
+Ritik Jain
+
+<p align="center">
+<a href = "https://github.com/rj5983"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "http://www.linkedin.com/in/rj5983">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+<p align="center">
+Documentation and Project Dataset Recommendation
+</p>
+</td>
