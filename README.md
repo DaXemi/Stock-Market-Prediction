@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a >
-    <img src="https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg" alt="Logo" width="120" height="120">
+    <img src="https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">Stock Market Prediction</h3>
@@ -18,10 +18,12 @@
 * [Abstract](#abstract)
 * [Introduction](#introduction)
 * [Dataset](#dataset)
+* [Installation](*installation)
 * [Method](#method)
 * [Experiments and Results](#experiments-and-results)
 * [Conclusion and Future Work](#conclusion-and-future-work)
 * [References](#references)
+* [Contributors](#contributors)
 # Stock-Market-Prediction
 
 ### Abstract
@@ -47,6 +49,13 @@ To obtain the dataset, the pandas datareader or finance module can be used to fe
 
 Overall, the dataset is a valuable resource for researchers and analysts who are interested in studying the Indian stock market and making informed investment decisions. The HOLC data provides important information about the performance of individual stocks and the stock market as a whole. The availability of the data in CSV format makes it easy to manipulate and analyze using programming languages such as Python or R.
 <br><br>
+### Installation
+1. Clone the repo
+```sh
+https://github.com/karoliwal/Stock-Market-Prediction
+```
+2. Run the Jupyter file as designated and install the Prerequisites file.
+<br><br>
 ### Method
 Grid Search CV is a method used in machine learning to optimize hyperparameters of an algorithm. It involves systematically evaluating the performance of a model with a range of hyperparameter values, selecting the best performing values, and using them to train the final model. The process involves trying out different combinations of hyperparameters from a pre-defined set, which enables the algorithm to find the best set of hyperparameters that can provide the most accurate predictions.
 
@@ -65,23 +74,73 @@ In conclusion, Stock Market Prediction is a challenging and complex problem that
 For future work, we plan to explore the use of more advanced deep learning models such as Long Short-Term Memory (LSTM) networks to further improve our predictions. LSTM networks are particularly well-suited for time-series data such as stock prices, and have been shown to outperform traditional machine learning models in many applications. In addition, we plan to incorporate fundamental analysis of the stock and real-time news related to the stock into our prediction model. Fundamental analysis involves examining a company's financial and economic data to gain insights into its overall health and prospects, while news analysis involves monitoring news sources for information that could impact a company's stock price. By incorporating these additional sources of information, we aim to develop a more comprehensive and accurate prediction model that can better capture the complex and dynamic nature of the stock market.
 <br><br>
 ### References
-https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.htm
+* https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.htm
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html
 <br><br>
-https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 <br><br>
-https://www.alphavantage.co/documentation/
+* https://www.alphavantage.co/documentation/
 <br><br>
-https://machinelearningmastery.com/
+* https://machinelearningmastery.com/
 <br><br>
-https://towardsdatascience.com/machine-learning/home
+* https://towardsdatascience.com/machine-learning/home
 <br><br>
-https://www.moneycontrol.com/
+* https://www.moneycontrol.com/
 <br><br>
-https://www.tickertape.in/
+* https://www.tickertape.in/
 <br><br>
+### Contributors
+
+<table>
+<tr align="center">
+
+
+<td>
+Aryan Karoliwal
+
+<p align="center">
+<a href = "https://github.com/karoliwal"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/aryankaroliwal/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+<p align="center">
+Dataset and Model Training
+</p>
+
+</td>
+
+
+<td>
+Atharva Agrawal
+
+<p align="center">
+<a href = "https://github.com/DaXemi"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/atharva-agrawal-a17906235/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+<p align="center">
+Model Prototyping and Documentation
+</p>
+</td>
+
+
+<td>
+Ritik Jain
+
+<p align="center">
+<a href = "https://github.com/rj5983"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "http://www.linkedin.com/in/rj5983">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>
+<p align="center">
+Documentation and Project Dataset Recommendation
+</p>
+</td>
