@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a >
-    <img src="https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg" alt="Logo" width="120" height="120">
+    <img src="https://sevensreport.com/wp-content/uploads/2016/07/stock-market-3.jpg" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">Stock Market Prediction</h3>
@@ -18,6 +18,7 @@
 * [Abstract](#abstract)
 * [Introduction](#introduction)
 * [Dataset](#dataset)
+* [Installation](*installation)
 * [Method](#method)
 * [Experiments and Results](#experiments-and-results)
 * [Conclusion and Future Work](#conclusion-and-future-work)
@@ -46,6 +47,13 @@ The dataset was obtained from several sources, including the National Stock Exch
 To obtain the dataset, the pandas datareader or finance module can be used to fetch the data from the NSE or BSE website. The data can then be stored in a CSV file using the pandas.to_csv method. Alternatively, the Quandl module can be used to read the BSE 500 Constituents CSV file, which contains the HOLC data of 500 stocks listed on the BSE.
 
 Overall, the dataset is a valuable resource for researchers and analysts who are interested in studying the Indian stock market and making informed investment decisions. The HOLC data provides important information about the performance of individual stocks and the stock market as a whole. The availability of the data in CSV format makes it easy to manipulate and analyze using programming languages such as Python or R.
+<br><br>
+### Installation
+1. Clone the repo
+```sh
+https://github.com/karoliwal/Stock-Market-Prediction
+```
+2. Run the Jupyter file as designated and install the Prerequisites file.
 <br><br>
 ### Method
 Grid Search CV is a method used in machine learning to optimize hyperparameters of an algorithm. It involves systematically evaluating the performance of a model with a range of hyperparameter values, selecting the best performing values, and using them to train the final model. The process involves trying out different combinations of hyperparameters from a pre-defined set, which enables the algorithm to find the best set of hyperparameters that can provide the most accurate predictions.
